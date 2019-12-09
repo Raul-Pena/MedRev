@@ -4,6 +4,7 @@ import 'blocs/drugtrackerbloc.dart';
 import 'screens/homepage.dart'; 
 import 'screens/loginscreen.dart';
 import 'screens/mainscreen.dart';
+import 'screens/singledrug.dart';
 
 void main() => runApp(MyApp());
 
@@ -47,8 +48,8 @@ class _SetupWidgetState extends State<SetupWidget> {
       } break;
       
       case "singleMedication": { 
-        print("myMedications"); 
-        return MainScreen();  
+        print("SingleDrug"); 
+        return SingleDrug();  
       } break; 
 
       case "interaction": 

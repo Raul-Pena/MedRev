@@ -8,6 +8,8 @@ import 'package:MedRev/models/drug.dart';
 import 'package:MedRev/blocs/drugtrackerbloc.dart';
 
 class DrugTrackerBloc extends ChangeNotifier {
+  bool testing = true;
+
   bool isReady = false;
   bool isLoggedIn = false;
   bool didLoginFail = false;
